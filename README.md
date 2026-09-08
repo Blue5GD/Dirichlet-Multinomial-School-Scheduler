@@ -86,7 +86,9 @@ I also collected anonymous survey data from 11th and 12th grade students. The su
 * Their ranked backup choices
 * Their original 2025–2026 schedule
 
-The program was then tested using the survey data and my high school's actual master schedule.
+The program was then tested using the survey data and my high school's actual master schedule. **21** students filled out the survey.
+
+![Screenshot of the survey that was sent to every 11th and 12th grader at my highschool](./screenshots/ss0.png)
 
 The comparisons looked at four different conditions:
 
@@ -190,6 +192,12 @@ Again, the highest-scoring generated schedule was not always the best-performing
 
 This showed that the objective function I designed was not perfectly aligned with every student outcome I was measuring.
 
+### Graphs
+
+![Bar graph comparing the total number of non-requested courses produced by each master-schedule for the sample of 21 students (lower is better)](./screenshots/ss1.png)
+
+![Bar graph comparing the total number of first-choice courses produced by each master-schedule for the sample of 21 students (higher is better)](./screenshots/ss2.png)
+
 ## Takeaways
 
 The most interesting result of the project was that **optimizing the master schedule is not necessarily the same thing as optimizing the schedules students actually receive**.
@@ -215,6 +223,15 @@ There was also some stochastic variation from the optimization process itself. T
 The optimization was run on a single consumer desktop rather than a large computing cluster, which limited how many schedules and iterations I could explore.
 
 Finally, the student survey dataset was relatively small compared with the total student population. The results therefore should not be interpreted as a complete picture of every student's experience at my high school.
+
+## Screenshots
+![Example generated master schedule](./screenshots/ss3.png)
+
+![Example student Monte Carlo outcomes](./screenshots/ss4.png)
+
+![Program parameters](./screenshots/ss5.png)
+
+![Master-schedule generator summary snippet](./screenshots/ss6.png)
 
 ## Project Structure
 
