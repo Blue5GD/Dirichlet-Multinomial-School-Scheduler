@@ -1,0 +1,1310 @@
+Student 1
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Calculus AB, AP Calculus AB, AP Psychology, AP Statistics, Dual Enrollment 3, Dual Enrollment 4, Dual Enrollment 7, Dual Enrollment 8
+Backups (1): AP European Hist
+
+P(get ALL top requests): 16.28%
+FAILED % (even backups can't fill a conflict-free 4×4): 69.42%
+
+Distribution: #Top obtained
+  4: 0.12%
+  5: 6.97%
+  6: 31.45%
+  7: 45.17%
+  8: 16.28%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=16.28% | failed=False | missing_top=[] | used_backups=[]
+  p=12.88% | failed=True | missing_top=['AP Statistics'] | used_backups=[]
+  p=10.45% | failed=True | missing_top=['Dual Enrollment 3', 'Dual Enrollment 7'] | used_backups=[]
+  p=9.78% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=8.94% | failed=True | missing_top=['Dual Enrollment 3', 'Dual Enrollment 7'] | used_backups=['AP European Hist']
+  p=7.47% | failed=False | missing_top=['AP Statistics'] | used_backups=['AP European Hist']
+  p=3.08% | failed=True | missing_top=['AP Psychology', 'AP Statistics'] | used_backups=[]
+  p=3.00% | failed=True | missing_top=['AP Psychology', 'AP Statistics'] | used_backups=['AP European Hist']
+  p=2.71% | failed=False | missing_top=['AP Psychology'] | used_backups=['AP European Hist']
+  p=2.34% | failed=True | missing_top=['Dual Enrollment 3'] | used_backups=[]
+  p=2.19% | failed=True | missing_top=['Dual Enrollment 4'] | used_backups=[]
+  p=1.87% | failed=True | missing_top=['Dual Enrollment 8'] | used_backups=[]
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Calculus AB, AP Calculus AB, AP Psychology, AP Statistics, Dual Enrollment 3, Dual Enrollment 4, Dual Enrollment 7, Dual Enrollment 8
+Backups (1): AP European Hist
+
+P(get ALL top requests): 11.61%
+FAILED % (even backups can't fill a conflict-free 4×4): 78.35%
+
+Distribution: #Top obtained
+  4: 0.69%
+  5: 11.99%
+  6: 31.20%
+  7: 44.52%
+  8: 11.61%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=20.02% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=11.61% | failed=False | missing_top=[] | used_backups=[]
+  p=10.35% | failed=True | missing_top=['AP Statistics'] | used_backups=[]
+  p=8.88% | failed=True | missing_top=['AP Psychology', 'AP Statistics'] | used_backups=[]
+  p=8.38% | failed=True | missing_top=['Dual Enrollment 3', 'Dual Enrollment 7'] | used_backups=[]
+  p=5.04% | failed=True | missing_top=['Dual Enrollment 3', 'Dual Enrollment 7'] | used_backups=['AP European Hist']
+  p=4.62% | failed=True | missing_top=['AP Psychology', 'Dual Enrollment 3', 'Dual Enrollment 7'] | used_backups=['AP European Hist']
+  p=4.61% | failed=True | missing_top=['AP Psychology', 'Dual Enrollment 3', 'Dual Enrollment 7'] | used_backups=[]
+  p=4.47% | failed=True | missing_top=['AP Psychology', 'AP Statistics'] | used_backups=['AP European Hist']
+  p=4.23% | failed=False | missing_top=['AP Psychology'] | used_backups=['AP European Hist']
+  p=4.02% | failed=False | missing_top=['AP Statistics'] | used_backups=['AP European Hist']
+  p=1.23% | failed=True | missing_top=['Dual Enrollment 7'] | used_backups=[]
+
+
+Student 2
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): DE Eng IV: 2303, DE Algebra III, AP Env Sci 1C, Amer Hist H, AP Statistics, Dual Enrollment 4, Dual Enrollment 7, Dual Enrollment 8
+Backups (4): AP Psychology, Act Prep, Dual Enrollment 3, Dual Enrollment 6
+
+P(get ALL top requests): 36.70%
+FAILED % (even backups can't fill a conflict-free 4×4): 43.25%
+
+Distribution: #Top obtained
+  6: 7.12%
+  7: 56.17%
+  8: 36.70%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=36.70% | failed=False | missing_top=[] | used_backups=[]
+  p=11.21% | failed=True | missing_top=['Dual Enrollment 4'] | used_backups=[]
+  p=8.25% | failed=True | missing_top=['AP Statistics'] | used_backups=[]
+  p=6.31% | failed=True | missing_top=['Amer Hist H'] | used_backups=[]
+  p=4.83% | failed=True | missing_top=['DE Algebra III'] | used_backups=[]
+  p=3.14% | failed=True | missing_top=['DE Eng IV: 2303'] | used_backups=[]
+  p=2.63% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Act Prep']
+  p=2.01% | failed=True | missing_top=['Dual Enrollment 7'] | used_backups=[]
+  p=1.98% | failed=False | missing_top=['DE Algebra III'] | used_backups=['Act Prep']
+  p=1.60% | failed=False | missing_top=['Amer Hist H'] | used_backups=['AP Psychology']
+  p=1.56% | failed=False | missing_top=['AP Statistics'] | used_backups=['Act Prep']
+  p=1.55% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Dual Enrollment 6']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): DE Eng IV: 2303, DE Algebra III, AP Env Sci 1C, Amer Hist H, AP Statistics, Dual Enrollment 4, Dual Enrollment 7, Dual Enrollment 8
+Backups (4): AP Psychology, Act Prep, Dual Enrollment 3, Dual Enrollment 6
+
+P(get ALL top requests): 35.94%
+FAILED % (even backups can't fill a conflict-free 4×4): 44.08%
+
+Distribution: #Top obtained
+  6: 7.14%
+  7: 56.92%
+  8: 35.94%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=35.94% | failed=False | missing_top=[] | used_backups=[]
+  p=11.22% | failed=True | missing_top=['Dual Enrollment 4'] | used_backups=[]
+  p=8.35% | failed=True | missing_top=['AP Statistics'] | used_backups=[]
+  p=6.55% | failed=True | missing_top=['Amer Hist H'] | used_backups=[]
+  p=4.84% | failed=True | missing_top=['DE Algebra III'] | used_backups=[]
+  p=3.42% | failed=True | missing_top=['DE Eng IV: 2303'] | used_backups=[]
+  p=2.85% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Act Prep']
+  p=2.10% | failed=False | missing_top=['DE Algebra III'] | used_backups=['Act Prep']
+  p=1.99% | failed=True | missing_top=['Dual Enrollment 7'] | used_backups=[]
+  p=1.83% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Dual Enrollment 6']
+  p=1.67% | failed=False | missing_top=['AP Statistics'] | used_backups=['Act Prep']
+  p=1.50% | failed=False | missing_top=['Amer Hist H'] | used_backups=['AP Psychology']
+
+
+Student 3
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): DE Eng IV: 2303, DE Algebra III, AP Physics I Alg, Amer Hist H, Tal Music, Indiv Proj H 1C, AP Physics II Alg, DE Adv Math PCal
+Backups (4): Fine Art (H), World Hist H, AP English III (11th/12th Grade), AP Psychology
+
+P(get ALL top requests): 48.35%
+FAILED % (even backups can't fill a conflict-free 4×4): 20.34%
+
+Distribution: #Top obtained
+  5: 0.12%
+  6: 3.82%
+  7: 47.70%
+  8: 48.35%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=48.35% | failed=False | missing_top=[] | used_backups=[]
+  p=8.04% | failed=False | missing_top=['Tal Music'] | used_backups=['Fine Art (H)']
+  p=5.32% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Fine Art (H)']
+  p=5.27% | failed=False | missing_top=['DE Algebra III'] | used_backups=['Fine Art (H)']
+  p=4.52% | failed=True | missing_top=['Tal Music'] | used_backups=[]
+  p=4.23% | failed=True | missing_top=['Indiv Proj H 1C'] | used_backups=[]
+  p=4.18% | failed=False | missing_top=['Indiv Proj H 1C'] | used_backups=['Fine Art (H)']
+  p=2.92% | failed=True | missing_top=['DE Algebra III'] | used_backups=[]
+  p=2.90% | failed=True | missing_top=['Amer Hist H'] | used_backups=[]
+  p=1.18% | failed=True | missing_top=['AP Physics II Alg'] | used_backups=[]
+  p=0.98% | failed=False | missing_top=['Tal Music'] | used_backups=['World Hist H']
+  p=0.81% | failed=False | missing_top=['Amer Hist H'] | used_backups=['AP Psychology']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): DE Eng IV: 2303, DE Algebra III, AP Physics I Alg, Amer Hist H, Tal Music, Indiv Proj H 1C, AP Physics II Alg, DE Adv Math PCal
+Backups (4): Fine Art (H), World Hist H, AP English III (11th/12th Grade), AP Psychology
+
+P(get ALL top requests): 48.29%
+FAILED % (even backups can't fill a conflict-free 4×4): 21.43%
+
+Distribution: #Top obtained
+  5: 0.11%
+  6: 3.84%
+  7: 47.75%
+  8: 48.29%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=48.29% | failed=False | missing_top=[] | used_backups=[]
+  p=8.16% | failed=False | missing_top=['Tal Music'] | used_backups=['Fine Art (H)']
+  p=5.32% | failed=False | missing_top=['DE Algebra III'] | used_backups=['Fine Art (H)']
+  p=5.32% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Fine Art (H)']
+  p=5.09% | failed=True | missing_top=['Tal Music'] | used_backups=[]
+  p=4.34% | failed=False | missing_top=['Indiv Proj H 1C'] | used_backups=['Fine Art (H)']
+  p=4.03% | failed=True | missing_top=['Indiv Proj H 1C'] | used_backups=[]
+  p=3.15% | failed=True | missing_top=['DE Algebra III'] | used_backups=[]
+  p=3.06% | failed=True | missing_top=['Amer Hist H'] | used_backups=[]
+  p=1.26% | failed=True | missing_top=['AP Physics II Alg'] | used_backups=[]
+  p=0.82% | failed=False | missing_top=['AP Physics I Alg'] | used_backups=['Fine Art (H)']
+  p=0.78% | failed=True | missing_top=['DE Eng IV: 2303'] | used_backups=[]
+
+
+Student 4
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Calculus AB, AP Calculus AB, AP Psychology, AP Statistics, AP Std Art&Draw, DE Intro to Theatre, Early Release 4th, Early Release 8th
+Backups (4): DE Art Hist I, DE Eng IV: 2303, AP European Hist, DE Intro to Engnr
+
+P(get ALL top requests): 0.00%
+FAILED % (even backups can't fill a conflict-free 4×4): 44.06%
+
+Distribution: #Top obtained
+  4: 0.27%
+  5: 2.89%
+  6: 34.70%
+  7: 62.13%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=22.88% | failed=False | missing_top=['AP Std Art&Draw'] | used_backups=['DE Art Hist I']
+  p=20.28% | failed=True | missing_top=['AP Std Art&Draw'] | used_backups=[]
+  p=4.55% | failed=True | missing_top=['AP Std Art&Draw', 'DE Intro to Theatre'] | used_backups=['DE Art Hist I']
+  p=4.46% | failed=False | missing_top=['AP Std Art&Draw'] | used_backups=['DE Intro to Engnr']
+  p=4.22% | failed=False | missing_top=['AP Std Art&Draw'] | used_backups=['AP European Hist']
+  p=3.42% | failed=False | missing_top=['AP Std Art&Draw'] | used_backups=['DE Eng IV: 2303']
+  p=3.23% | failed=True | missing_top=['AP Psychology', 'AP Std Art&Draw'] | used_backups=['DE Art Hist I']
+  p=2.10% | failed=False | missing_top=['DE Intro to Theatre'] | used_backups=[]
+  p=2.07% | failed=False | missing_top=['AP Std Art&Draw', 'DE Intro to Theatre'] | used_backups=['DE Art Hist I', 'DE Intro to Engnr']
+  p=1.89% | failed=True | missing_top=['AP Statistics', 'AP Std Art&Draw'] | used_backups=['DE Art Hist I']
+  p=1.85% | failed=True | missing_top=['AP Std Art&Draw', 'Early Release 8th'] | used_backups=['DE Art Hist I']
+  p=1.85% | failed=False | missing_top=['Early Release 4th'] | used_backups=[]
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Calculus AB, AP Calculus AB, AP Psychology, AP Statistics, AP Std Art&Draw, DE Intro to Theatre, Early Release 4th, Early Release 8th
+Backups (4): DE Art Hist I, DE Eng IV: 2303, AP European Hist, DE Intro to Engnr
+
+P(get ALL top requests): 0.00%
+FAILED % (even backups can't fill a conflict-free 4×4): 50.57%
+
+Distribution: #Top obtained
+  4: 0.50%
+  5: 6.24%
+  6: 47.42%
+  7: 45.84%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=15.01% | failed=False | missing_top=['AP Std Art&Draw'] | used_backups=['DE Art Hist I']
+  p=13.79% | failed=True | missing_top=['AP Std Art&Draw'] | used_backups=[]
+  p=13.05% | failed=True | missing_top=['AP Psychology', 'AP Std Art&Draw'] | used_backups=['DE Art Hist I']
+  p=4.52% | failed=False | missing_top=['AP Psychology'] | used_backups=[]
+  p=4.03% | failed=True | missing_top=['AP Psychology', 'AP Std Art&Draw'] | used_backups=[]
+  p=3.92% | failed=False | missing_top=['AP Std Art&Draw'] | used_backups=['DE Intro to Engnr']
+  p=3.08% | failed=True | missing_top=['AP Std Art&Draw', 'DE Intro to Theatre'] | used_backups=['DE Art Hist I']
+  p=2.51% | failed=False | missing_top=['AP Std Art&Draw'] | used_backups=['AP European Hist']
+  p=2.34% | failed=False | missing_top=['AP Std Art&Draw'] | used_backups=['DE Eng IV: 2303']
+  p=2.16% | failed=False | missing_top=['AP Psychology', 'AP Std Art&Draw'] | used_backups=['DE Art Hist I', 'DE Intro to Engnr']
+  p=1.57% | failed=False | missing_top=['AP Psychology', 'AP Std Art&Draw'] | used_backups=['DE Art Hist I', 'DE Eng IV: 2303']
+  p=1.57% | failed=True | missing_top=['AP Psychology', 'AP Std Art&Draw'] | used_backups=['DE Intro to Engnr']
+
+
+Student 5
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Psychology, AP European Hist, World Hist H, DE Adv Math PCal, Physics H, Fine Art (H), Afr American H, Dual Enrollment 4
+Backups (4): DE Art Hist I, AP Physics I Alg, Tal Theatre, Dual Enrollment 8
+
+P(get ALL top requests): 29.27%
+FAILED % (even backups can't fill a conflict-free 4×4): 28.97%
+
+Distribution: #Top obtained
+  5: 0.40%
+  6: 9.31%
+  7: 61.02%
+  8: 29.27%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=29.27% | failed=False | missing_top=[] | used_backups=[]
+  p=8.29% | failed=False | missing_top=['Fine Art (H)'] | used_backups=['DE Art Hist I']
+  p=6.49% | failed=True | missing_top=['World Hist H'] | used_backups=[]
+  p=5.10% | failed=False | missing_top=['World Hist H'] | used_backups=['DE Art Hist I']
+  p=4.81% | failed=False | missing_top=['Physics H'] | used_backups=['DE Art Hist I']
+  p=4.13% | failed=False | missing_top=['Afr American H'] | used_backups=['DE Art Hist I']
+  p=3.82% | failed=True | missing_top=['Dual Enrollment 4'] | used_backups=[]
+  p=3.60% | failed=False | missing_top=['Dual Enrollment 4'] | used_backups=['DE Art Hist I']
+  p=2.70% | failed=True | missing_top=['Afr American H'] | used_backups=[]
+  p=2.64% | failed=True | missing_top=['Fine Art (H)'] | used_backups=[]
+  p=2.38% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=1.85% | failed=True | missing_top=['DE Adv Math PCal'] | used_backups=[]
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Psychology, AP European Hist, World Hist H, DE Adv Math PCal, Physics H, Fine Art (H), Afr American H, Dual Enrollment 4
+Backups (4): DE Art Hist I, AP Physics I Alg, Tal Theatre, Dual Enrollment 8
+
+P(get ALL top requests): 12.25%
+FAILED % (even backups can't fill a conflict-free 4×4): 50.89%
+
+Distribution: #Top obtained
+  4: 0.05%
+  5: 2.83%
+  6: 28.51%
+  7: 56.36%
+  8: 12.25%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=12.25% | failed=False | missing_top=[] | used_backups=[]
+  p=7.73% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=7.39% | failed=False | missing_top=['AP Psychology'] | used_backups=['DE Art Hist I']
+  p=4.67% | failed=True | missing_top=['World Hist H'] | used_backups=[]
+  p=4.60% | failed=True | missing_top=['AP European Hist'] | used_backups=[]
+  p=3.91% | failed=False | missing_top=['World Hist H'] | used_backups=['DE Art Hist I']
+  p=3.45% | failed=False | missing_top=['AP European Hist'] | used_backups=['DE Art Hist I']
+  p=3.35% | failed=False | missing_top=['Fine Art (H)'] | used_backups=['DE Art Hist I']
+  p=3.12% | failed=True | missing_top=['AP Psychology', 'World Hist H'] | used_backups=['DE Art Hist I']
+  p=3.02% | failed=False | missing_top=['Afr American H'] | used_backups=['DE Art Hist I']
+  p=2.91% | failed=True | missing_top=['Afr American H'] | used_backups=[]
+  p=2.41% | failed=False | missing_top=['Physics H'] | used_backups=['DE Art Hist I']
+
+
+Student 6
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): DE Eng IV: 2303, DE Algebra III, AP Env Sci 1C, Amer Hist H, DE Intro to Engnr, Robotics (LSU), AP Psychology, Int Comp Think H
+Backups (4): AP Statistics, World Hist H, AP English III (11th/12th Grade), AP Physics I Alg
+
+P(get ALL top requests): 49.27%
+FAILED % (even backups can't fill a conflict-free 4×4): 34.17%
+
+Distribution: #Top obtained
+  6: 3.03%
+  7: 47.70%
+  8: 49.27%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=49.27% | failed=False | missing_top=[] | used_backups=[]
+  p=12.88% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=6.25% | failed=True | missing_top=['DE Algebra III'] | used_backups=[]
+  p=4.04% | failed=True | missing_top=['Amer Hist H'] | used_backups=[]
+  p=3.76% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=2.25% | failed=True | missing_top=['Int Comp Think H'] | used_backups=[]
+  p=1.77% | failed=False | missing_top=['Amer Hist H'] | used_backups=['AP Statistics']
+  p=1.62% | failed=False | missing_top=['DE Algebra III'] | used_backups=['AP Statistics']
+  p=1.59% | failed=False | missing_top=['Amer Hist H'] | used_backups=['AP Physics I Alg']
+  p=1.47% | failed=False | missing_top=['Amer Hist H'] | used_backups=['World Hist H']
+  p=1.31% | failed=True | missing_top=['DE Eng IV: 2303'] | used_backups=[]
+  p=1.29% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['AP Statistics']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): DE Eng IV: 2303, DE Algebra III, AP Env Sci 1C, Amer Hist H, DE Intro to Engnr, Robotics (LSU), AP Psychology, Int Comp Think H
+Backups (4): AP Statistics, World Hist H, AP English III (11th/12th Grade), AP Physics I Alg
+
+P(get ALL top requests): 28.61%
+FAILED % (even backups can't fill a conflict-free 4×4): 55.84%
+
+Distribution: #Top obtained
+  5: 0.02%
+  6: 14.02%
+  7: 57.36%
+  8: 28.61%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=28.61% | failed=False | missing_top=[] | used_backups=[]
+  p=16.95% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=15.13% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=7.46% | failed=True | missing_top=['AP Psychology', 'Robotics (LSU)'] | used_backups=[]
+  p=3.36% | failed=True | missing_top=['DE Algebra III'] | used_backups=[]
+  p=2.50% | failed=True | missing_top=['Amer Hist H'] | used_backups=[]
+  p=2.37% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=1.78% | failed=False | missing_top=['AP Psychology'] | used_backups=['AP Statistics']
+  p=1.47% | failed=False | missing_top=['AP Psychology'] | used_backups=['AP Physics I Alg']
+  p=1.33% | failed=True | missing_top=['Int Comp Think H'] | used_backups=[]
+  p=1.26% | failed=False | missing_top=['Robotics (LSU)'] | used_backups=['AP Statistics']
+  p=1.03% | failed=False | missing_top=['Amer Hist H'] | used_backups=['AP Physics I Alg']
+
+
+Student 7
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Physics II Alg, AP Calculus AB, AP Calculus AB, Int Comp Think H, DE Adv Math PCal, AP Env Sci 1C, Afr American H, AP Psychology
+Backups (3): World Hist H, AP Biology (full year), AP Biology (full year)
+
+P(get ALL top requests): 23.29%
+FAILED % (even backups can't fill a conflict-free 4×4): 59.98%
+
+Distribution: #Top obtained
+  4: 0.42%
+  5: 7.93%
+  6: 23.53%
+  7: 44.82%
+  8: 23.29%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=23.29% | failed=False | missing_top=[] | used_backups=[]
+  p=16.35% | failed=True | missing_top=['Afr American H'] | used_backups=[]
+  p=14.54% | failed=True | missing_top=['AP Env Sci 1C'] | used_backups=[]
+  p=6.42% | failed=True | missing_top=['Int Comp Think H'] | used_backups=[]
+  p=4.04% | failed=False | missing_top=['AP Env Sci 1C', 'Afr American H'] | used_backups=['AP Biology (full year)']
+  p=3.37% | failed=True | missing_top=['AP Env Sci 1C', 'Afr American H'] | used_backups=[]
+  p=2.64% | failed=True | missing_top=['DE Adv Math PCal'] | used_backups=[]
+  p=2.02% | failed=True | missing_top=['AP Physics II Alg'] | used_backups=[]
+  p=1.82% | failed=False | missing_top=['Afr American H', 'Int Comp Think H'] | used_backups=['AP Biology (full year)']        
+  p=1.76% | failed=False | missing_top=['AP Env Sci 1C', 'Int Comp Think H'] | used_backups=['AP Biology (full year)']
+  p=1.57% | failed=False | missing_top=['AP Env Sci 1C', 'DE Adv Math PCal'] | used_backups=['AP Biology (full year)']
+  p=1.57% | failed=False | missing_top=['Afr American H', 'DE Adv Math PCal'] | used_backups=['AP Biology (full year)']        
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Physics II Alg, AP Calculus AB, AP Calculus AB, Int Comp Think H, DE Adv Math PCal, AP Env Sci 1C, Afr American H, AP Psychology
+Backups (3): World Hist H, AP Biology (full year), AP Biology (full year)
+
+P(get ALL top requests): 14.22%
+FAILED % (even backups can't fill a conflict-free 4×4): 69.88%
+
+Distribution: #Top obtained
+  4: 1.04%
+  5: 11.56%
+  6: 29.18%
+  7: 43.99%
+  8: 14.22%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=14.34% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=14.22% | failed=False | missing_top=[] | used_backups=[]
+  p=12.80% | failed=True | missing_top=['Afr American H'] | used_backups=[]
+  p=8.45% | failed=True | missing_top=['AP Env Sci 1C'] | used_backups=[]
+  p=3.74% | failed=True | missing_top=['Int Comp Think H'] | used_backups=[]
+  p=3.46% | failed=True | missing_top=['AP Env Sci 1C', 'Afr American H'] | used_backups=[]
+  p=2.96% | failed=False | missing_top=['AP Env Sci 1C', 'Afr American H'] | used_backups=['AP Biology (full year)']
+  p=2.47% | failed=True | missing_top=['AP Psychology', 'Afr American H'] | used_backups=[]
+  p=2.16% | failed=True | missing_top=['AP Env Sci 1C', 'AP Psychology'] | used_backups=[]
+  p=1.74% | failed=True | missing_top=['AP Env Sci 1C', 'AP Psychology', 'Afr American H'] | used_backups=['AP Biology (full year)']
+  p=1.52% | failed=False | missing_top=['Afr American H', 'Int Comp Think H'] | used_backups=['AP Biology (full year)']        
+  p=1.49% | failed=True | missing_top=['AP Psychology', 'Int Comp Think H'] | used_backups=[]
+
+
+Student 8
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): DE Intro to Engnr, AP English III (11th/12th Grade), Physics H, AP European Hist, Dual Enrollment 3, Dual Enrollment 4, Dual Enrollment 7, Dual Enrollment 8
+Backups (4): DE Eng IV: 2303, Tal Theatre, World Hist H, AP Psychology
+
+P(get ALL top requests): 11.46%
+FAILED % (even backups can't fill a conflict-free 4×4): 55.38%
+
+Distribution: #Top obtained
+  4: 0.07%
+  5: 3.08%
+  6: 31.96%
+  7: 53.42%
+  8: 11.46%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=11.46% | failed=False | missing_top=[] | used_backups=[]
+  p=7.74% | failed=True | missing_top=['Dual Enrollment 4'] | used_backups=[]
+  p=5.24% | failed=True | missing_top=['Dual Enrollment 3'] | used_backups=[]
+  p=4.83% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=4.33% | failed=True | missing_top=['AP European Hist'] | used_backups=[]
+  p=3.54% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=2.73% | failed=False | missing_top=['AP European Hist'] | used_backups=['Tal Theatre']
+  p=2.66% | failed=False | missing_top=['Dual Enrollment 3'] | used_backups=['Tal Theatre']
+  p=2.60% | failed=False | missing_top=['Dual Enrollment 4'] | used_backups=['Tal Theatre']
+  p=2.31% | failed=False | missing_top=['Physics H'] | used_backups=['Tal Theatre']
+  p=1.84% | failed=True | missing_top=['AP European Hist', 'Dual Enrollment 4'] | used_backups=[]
+  p=1.79% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Tal Theatre']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): DE Intro to Engnr, AP English III (11th/12th Grade), Physics H, AP European Hist, Dual Enrollment 3, Dual Enrollment 4, Dual Enrollment 7, Dual Enrollment 8
+Backups (4): DE Eng IV: 2303, Tal Theatre, World Hist H, AP Psychology
+
+P(get ALL top requests): 9.40%
+FAILED % (even backups can't fill a conflict-free 4×4): 62.41%
+
+Distribution: #Top obtained
+  4: 0.12%
+  5: 4.72%
+  6: 35.71%
+  7: 50.05%
+  8: 9.40%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=9.40% | failed=False | missing_top=[] | used_backups=[]
+  p=7.77% | failed=True | missing_top=['AP European Hist'] | used_backups=[]
+  p=6.96% | failed=True | missing_top=['Dual Enrollment 4'] | used_backups=[]
+  p=4.58% | failed=True | missing_top=['Dual Enrollment 3'] | used_backups=[]
+  p=4.50% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=4.11% | failed=False | missing_top=['AP European Hist'] | used_backups=['Tal Theatre']
+  p=3.10% | failed=True | missing_top=['AP European Hist', 'Dual Enrollment 4'] | used_backups=[]
+  p=3.06% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=2.46% | failed=True | missing_top=['AP European Hist', 'Dual Enrollment 3'] | used_backups=['Tal Theatre']
+  p=2.37% | failed=False | missing_top=['Dual Enrollment 3'] | used_backups=['Tal Theatre']
+  p=2.03% | failed=False | missing_top=['Dual Enrollment 4'] | used_backups=['Tal Theatre']
+  p=2.02% | failed=True | missing_top=['AP European Hist', 'Dual Enrollment 4'] | used_backups=['Tal Theatre']
+
+
+Student 9
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Psychology, AP Env Sci 1C, DE Intro to Engnr, Early Release 4th, Robotics (LSU), AP Physics I Alg, AP English III (11th/12th Grade), Early Release 8th
+Backups (6): Dual Enrollment 3, Dual Enrollment 4, Dual Enrollment 7, Dual Enrollment 8, DE Intro to Theatre, AP Research
+
+P(get ALL top requests): 18.81%
+FAILED % (even backups can't fill a conflict-free 4×4): 61.82%
+
+Distribution: #Top obtained
+  5: 0.67%
+  6: 20.34%
+  7: 60.18%
+  8: 18.81%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=18.81% | failed=False | missing_top=[] | used_backups=[]
+  p=13.36% | failed=True | missing_top=['Early Release 4th'] | used_backups=[]
+  p=8.09% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=6.91% | failed=True | missing_top=['AP Physics I Alg'] | used_backups=[]
+  p=6.29% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=4.52% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=3.14% | failed=False | missing_top=['Early Release 4th'] | used_backups=['DE Intro to Theatre']
+  p=2.21% | failed=False | missing_top=['AP Physics I Alg'] | used_backups=['DE Intro to Theatre']
+  p=2.07% | failed=False | missing_top=['AP Psychology'] | used_backups=['DE Intro to Theatre']
+  p=1.74% | failed=True | missing_top=['Early Release 8th'] | used_backups=[]
+  p=1.71% | failed=True | missing_top=['AP Psychology', 'Early Release 4th'] | used_backups=[]
+  p=1.67% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['DE Intro to Theatre']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Psychology, AP Env Sci 1C, DE Intro to Engnr, Early Release 4th, Robotics (LSU), AP Physics I Alg, AP English III (11th/12th Grade), Early Release 8th
+Backups (6): Dual Enrollment 3, Dual Enrollment 4, Dual Enrollment 7, Dual Enrollment 8, DE Intro to Theatre, AP Research      
+
+P(get ALL top requests): 10.66%
+FAILED % (even backups can't fill a conflict-free 4×4): 71.77%
+
+Distribution: #Top obtained
+  4: 0.05%
+  5: 4.09%
+  6: 33.51%
+  7: 51.70%
+  8: 10.66%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=15.08% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=10.66% | failed=False | missing_top=[] | used_backups=[]
+  p=7.63% | failed=True | missing_top=['Early Release 4th'] | used_backups=[]
+  p=5.05% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=3.94% | failed=True | missing_top=['AP Psychology', 'Early Release 4th'] | used_backups=[]
+  p=3.71% | failed=False | missing_top=['AP Psychology'] | used_backups=['DE Intro to Theatre']
+  p=3.68% | failed=True | missing_top=['AP Psychology', 'Robotics (LSU)'] | used_backups=[]
+  p=3.64% | failed=True | missing_top=['AP Physics I Alg'] | used_backups=[]
+  p=3.38% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=2.53% | failed=True | missing_top=['AP Psychology', 'Robotics (LSU)'] | used_backups=['DE Intro to Theatre']
+  p=2.42% | failed=True | missing_top=['AP Psychology', 'Early Release 4th'] | used_backups=['DE Intro to Theatre']
+  p=2.18% | failed=True | missing_top=['AP Physics I Alg', 'AP Psychology'] | used_backups=[]
+
+
+Student 10
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): English IV H, DE Algebra III, AP Env Sci 1C, Amer Hist H, AP Psychology, AP Statistics, Physics H, Fine Art (H)
+Backups (4): AP European Hist, Afr American H, AP English III (11th/12th Grade), Tal Art
+
+P(get ALL top requests): 82.68%
+FAILED % (even backups can't fill a conflict-free 4×4): 3.82%
+
+Distribution: #Top obtained
+  6: 0.70%
+  7: 16.62%
+  8: 82.68%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=82.68% | failed=False | missing_top=[] | used_backups=[]
+  p=2.47% | failed=False | missing_top=['Fine Art (H)'] | used_backups=['AP European Hist']
+  p=2.41% | failed=False | missing_top=['Fine Art (H)'] | used_backups=['Afr American H']
+  p=1.80% | failed=False | missing_top=['English IV H'] | used_backups=['AP European Hist']
+  p=1.36% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=1.09% | failed=False | missing_top=['English IV H'] | used_backups=['Afr American H']
+  p=1.06% | failed=False | missing_top=['Amer Hist H'] | used_backups=['AP European Hist']
+  p=1.03% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Afr American H']
+  p=0.85% | failed=False | missing_top=['Physics H'] | used_backups=['Afr American H']
+  p=0.85% | failed=True | missing_top=['Fine Art (H)'] | used_backups=[]
+  p=0.85% | failed=True | missing_top=['English IV H'] | used_backups=[]
+  p=0.62% | failed=False | missing_top=['Fine Art (H)'] | used_backups=['Tal Art']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): English IV H, DE Algebra III, AP Env Sci 1C, Amer Hist H, AP Psychology, AP Statistics, Physics H, Fine Art (H)
+Backups (4): AP European Hist, Afr American H, AP English III (11th/12th Grade), Tal Art
+
+P(get ALL top requests): 57.53%
+FAILED % (even backups can't fill a conflict-free 4×4): 28.17%
+
+Distribution: #Top obtained
+  6: 0.73%
+  7: 41.74%
+  8: 57.53%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=57.53% | failed=False | missing_top=[] | used_backups=[]
+  p=25.86% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=2.88% | failed=False | missing_top=['AP Psychology'] | used_backups=['Afr American H']
+  p=1.87% | failed=False | missing_top=['AP Psychology'] | used_backups=['AP European Hist']
+  p=1.60% | failed=False | missing_top=['Fine Art (H)'] | used_backups=['Afr American H']
+  p=1.23% | failed=False | missing_top=['Fine Art (H)'] | used_backups=['AP European Hist']
+  p=0.95% | failed=False | missing_top=['English IV H'] | used_backups=['AP European Hist']
+  p=0.83% | failed=False | missing_top=['English IV H'] | used_backups=['Afr American H']
+  p=0.82% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=0.80% | failed=False | missing_top=['AP Psychology'] | used_backups=['Tal Art']
+  p=0.73% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Afr American H']
+  p=0.58% | failed=False | missing_top=['Amer Hist H'] | used_backups=['AP European Hist']
+
+
+Student 11
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): English IV H, DE Algebra III, AP Physics I Alg, Amer Hist H, AP Physics II Alg, AP European Hist, AP Seminar, AP Research
+Backups (4): Afr American H, Act Prep, AP Psychology, AP Statistics
+
+P(get ALL top requests): 42.66%
+FAILED % (even backups can't fill a conflict-free 4×4): 23.33%
+
+Distribution: #Top obtained
+  5: 0.12%
+  6: 6.71%
+  7: 50.51%
+  8: 42.66%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=42.66% | failed=False | missing_top=[] | used_backups=[]
+  p=9.79% | failed=False | missing_top=['English IV H'] | used_backups=['Afr American H']
+  p=5.47% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Afr American H']
+  p=4.08% | failed=True | missing_top=['AP Physics I Alg'] | used_backups=[]
+  p=4.03% | failed=True | missing_top=['English IV H'] | used_backups=[]
+  p=2.90% | failed=True | missing_top=['AP Physics II Alg'] | used_backups=[]
+  p=2.78% | failed=False | missing_top=['English IV H'] | used_backups=['Act Prep']
+  p=2.43% | failed=False | missing_top=['DE Algebra III'] | used_backups=['Afr American H']
+  p=2.39% | failed=True | missing_top=['DE Algebra III'] | used_backups=[]
+  p=2.11% | failed=False | missing_top=['AP Physics I Alg'] | used_backups=['Afr American H']
+  p=2.10% | failed=False | missing_top=['AP Physics II Alg'] | used_backups=['Afr American H']
+  p=1.96% | failed=False | missing_top=['AP Seminar'] | used_backups=['Afr American H']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): English IV H, DE Algebra III, AP Physics I Alg, Amer Hist H, AP Physics II Alg, AP European Hist, AP Seminar, AP Research
+Backups (4): Afr American H, Act Prep, AP Psychology, AP Statistics
+
+P(get ALL top requests): 35.77%
+FAILED % (even backups can't fill a conflict-free 4×4): 28.97%
+
+Distribution: #Top obtained
+  5: 0.10%
+  6: 8.48%
+  7: 55.65%
+  8: 35.77%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=35.77% | failed=False | missing_top=[] | used_backups=[]
+  p=8.54% | failed=True | missing_top=['AP European Hist'] | used_backups=[]
+  p=7.26% | failed=False | missing_top=['English IV H'] | used_backups=['Afr American H']
+  p=7.22% | failed=False | missing_top=['AP European Hist'] | used_backups=['Afr American H']
+  p=4.04% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Afr American H']
+  p=3.79% | failed=True | missing_top=['English IV H'] | used_backups=[]
+  p=3.13% | failed=True | missing_top=['AP Physics I Alg'] | used_backups=[]
+  p=2.67% | failed=False | missing_top=['English IV H'] | used_backups=['Act Prep']
+  p=2.56% | failed=True | missing_top=['AP Physics II Alg'] | used_backups=[]
+  p=1.95% | failed=True | missing_top=['DE Algebra III'] | used_backups=[]
+  p=1.93% | failed=False | missing_top=['DE Algebra III'] | used_backups=['Afr American H']
+  p=1.58% | failed=False | missing_top=['AP Physics II Alg'] | used_backups=['Afr American H']
+
+
+Student 12
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Calculus AB, AP Calculus AB, AP Psychology, AP Env Sci 1C, DE Intro to Engnr, Robotics (LSU), Dual Enrollment 4, Dual Enrollment 8
+Backups (4): Int Comp Think H, DE Intro to Theatre, AP European Hist, World Hist H
+
+P(get ALL top requests): 39.03%
+FAILED % (even backups can't fill a conflict-free 4×4): 29.86%
+
+Distribution: #Top obtained
+  5: 0.22%
+  6: 5.72%
+  7: 55.03%
+  8: 39.03%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=39.03% | failed=False | missing_top=[] | used_backups=[]
+  p=8.77% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=5.90% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=5.62% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['DE Intro to Theatre']
+  p=5.11% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=3.65% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Int Comp Think H']
+  p=3.08% | failed=False | missing_top=['Robotics (LSU)'] | used_backups=['DE Intro to Theatre']
+  p=2.64% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['AP European Hist']
+  p=2.57% | failed=True | missing_top=['Dual Enrollment 4'] | used_backups=[]
+  p=2.08% | failed=False | missing_top=['AP Env Sci 1C'] | used_backups=['Int Comp Think H']
+  p=2.05% | failed=False | missing_top=['AP Psychology'] | used_backups=['DE Intro to Theatre']
+  p=1.88% | failed=False | missing_top=['AP Env Sci 1C'] | used_backups=['DE Intro to Theatre']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Calculus AB, AP Calculus AB, AP Psychology, AP Env Sci 1C, DE Intro to Engnr, Robotics (LSU), Dual Enrollment 4, Dual Enrollment 8
+Backups (4): Int Comp Think H, DE Intro to Theatre, AP European Hist, World Hist H
+
+P(get ALL top requests): 22.16%
+FAILED % (even backups can't fill a conflict-free 4×4): 43.68%
+
+Distribution: #Top obtained
+  5: 0.90%
+  6: 18.82%
+  7: 58.12%
+  8: 22.16%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=22.16% | failed=False | missing_top=[] | used_backups=[]
+  p=14.29% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=7.94% | failed=False | missing_top=['AP Psychology'] | used_backups=['DE Intro to Theatre']
+  p=5.66% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=5.48% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=5.41% | failed=True | missing_top=['AP Psychology', 'Robotics (LSU)'] | used_backups=['DE Intro to Theatre']
+  p=3.84% | failed=False | missing_top=['AP Psychology'] | used_backups=['Int Comp Think H']
+  p=3.59% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['DE Intro to Theatre']
+  p=3.36% | failed=False | missing_top=['Robotics (LSU)'] | used_backups=['DE Intro to Theatre']
+  p=2.11% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Int Comp Think H']
+  p=2.10% | failed=False | missing_top=['Robotics (LSU)'] | used_backups=['Int Comp Think H']
+  p=1.85% | failed=True | missing_top=['AP Psychology', 'DE Intro to Engnr'] | used_backups=['DE Intro to Theatre']
+
+
+Student 13
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): DE Eng IV: 2303, DE Algebra III, AP Env Sci 1C, AP Psychology, Indiv Proj H 1C, Physics H, DE Intro to Engnr, DE Intro to Theatre
+Backups (4): DE Art Hist I, Act Prep, AP Seminar, Int Comp Think H
+
+P(get ALL top requests): 41.42%
+FAILED % (even backups can't fill a conflict-free 4×4): 26.98%
+
+Distribution: #Top obtained
+  5: 0.09%
+  6: 7.39%
+  7: 51.10%
+  8: 41.42%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=41.42% | failed=False | missing_top=[] | used_backups=[]
+  p=7.99% | failed=True | missing_top=['Indiv Proj H 1C'] | used_backups=[]
+  p=5.44% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=4.77% | failed=False | missing_top=['Physics H'] | used_backups=['DE Art Hist I']
+  p=3.98% | failed=False | missing_top=['DE Intro to Theatre'] | used_backups=['DE Art Hist I']
+  p=3.77% | failed=False | missing_top=['Indiv Proj H 1C'] | used_backups=['DE Art Hist I']
+  p=2.72% | failed=False | missing_top=['DE Algebra III'] | used_backups=['DE Art Hist I']
+  p=2.70% | failed=True | missing_top=['DE Intro to Theatre'] | used_backups=[]
+  p=2.61% | failed=True | missing_top=['DE Algebra III'] | used_backups=[]
+  p=1.91% | failed=False | missing_top=['DE Intro to Theatre'] | used_backups=['AP Seminar']
+  p=1.51% | failed=False | missing_top=['Physics H'] | used_backups=['Act Prep']
+  p=1.43% | failed=False | missing_top=['Physics H'] | used_backups=['AP Seminar']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): DE Eng IV: 2303, DE Algebra III, AP Env Sci 1C, AP Psychology, Indiv Proj H 1C, Physics H, DE Intro to Engnr, DE Intro to Theatre
+Backups (4): DE Art Hist I, Act Prep, AP Seminar, Int Comp Think H
+
+P(get ALL top requests): 28.45%
+FAILED % (even backups can't fill a conflict-free 4×4): 36.87%
+
+Distribution: #Top obtained
+  5: 0.23%
+  6: 10.98%
+  7: 60.34%
+  8: 28.45%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=28.45% | failed=False | missing_top=[] | used_backups=[]
+  p=14.92% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=8.63% | failed=False | missing_top=['AP Psychology'] | used_backups=['DE Art Hist I']
+  p=4.54% | failed=True | missing_top=['Indiv Proj H 1C'] | used_backups=[]
+  p=3.91% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=3.28% | failed=False | missing_top=['Physics H'] | used_backups=['DE Art Hist I']
+  p=2.75% | failed=False | missing_top=['DE Intro to Theatre'] | used_backups=['DE Art Hist I']
+  p=2.16% | failed=False | missing_top=['Indiv Proj H 1C'] | used_backups=['DE Art Hist I']
+  p=2.14% | failed=False | missing_top=['DE Algebra III'] | used_backups=['DE Art Hist I']
+  p=1.94% | failed=False | missing_top=['AP Psychology'] | used_backups=['Act Prep']
+  p=1.70% | failed=True | missing_top=['DE Algebra III'] | used_backups=[]
+  p=1.70% | failed=True | missing_top=['DE Intro to Theatre'] | used_backups=[]
+
+
+Student 14
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): DE Adv Math PCal, AP European Hist, Dual Enrollment 3, Dual Enrollment 4, AP Psychology, DE Intro to Engnr, Dual Enrollment 7, Dual Enrollment 8
+Backups (4): AP Physics II Alg, DE Intro to Theatre, Tal Theatre, World Hist H
+
+P(get ALL top requests): 13.85%
+FAILED % (even backups can't fill a conflict-free 4×4): 29.07%
+
+Distribution: #Top obtained
+  5: 3.08%
+  6: 30.00%
+  7: 53.08%
+  8: 13.85%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=13.85% | failed=False | missing_top=[] | used_backups=[]
+  p=5.65% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['DE Intro to Theatre']
+  p=4.62% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['AP Physics II Alg']
+  p=3.75% | failed=False | missing_top=['DE Adv Math PCal'] | used_backups=['DE Intro to Theatre']
+  p=3.43% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Tal Theatre']
+  p=3.40% | failed=True | missing_top=['DE Adv Math PCal'] | used_backups=[]
+  p=3.05% | failed=False | missing_top=['DE Adv Math PCal'] | used_backups=['AP Physics II Alg']
+  p=2.76% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=2.32% | failed=False | missing_top=['DE Adv Math PCal'] | used_backups=['Tal Theatre']
+  p=2.03% | failed=False | missing_top=['AP European Hist'] | used_backups=['DE Intro to Theatre']
+  p=1.81% | failed=True | missing_top=['Dual Enrollment 8'] | used_backups=[]
+  p=1.80% | failed=False | missing_top=['AP Psychology'] | used_backups=['DE Intro to Theatre']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): DE Adv Math PCal, AP European Hist, Dual Enrollment 3, Dual Enrollment 4, AP Psychology, DE Intro to Engnr, Dual Enrollment 7, Dual Enrollment 8
+Backups (4): AP Physics II Alg, DE Intro to Theatre, Tal Theatre, World Hist H
+
+P(get ALL top requests): 7.65%
+FAILED % (even backups can't fill a conflict-free 4×4): 35.91%
+
+Distribution: #Top obtained
+  4: 0.21%
+  5: 6.42%
+  6: 41.09%
+  7: 44.63%
+  8: 7.65%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=7.65% | failed=False | missing_top=[] | used_backups=[]
+  p=4.84% | failed=False | missing_top=['AP Psychology'] | used_backups=['DE Intro to Theatre']
+  p=3.54% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=3.36% | failed=True | missing_top=['AP European Hist', 'AP Psychology'] | used_backups=['DE Intro to Theatre']
+  p=3.36% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['DE Intro to Theatre']
+  p=3.26% | failed=False | missing_top=['AP Psychology'] | used_backups=['AP Physics II Alg']
+  p=3.21% | failed=False | missing_top=['AP European Hist'] | used_backups=['DE Intro to Theatre']
+  p=2.80% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['AP Physics II Alg']
+  p=2.79% | failed=False | missing_top=['AP European Hist', 'AP Psychology'] | used_backups=['AP Physics II Alg', 'DE Intro to Theatre']
+  p=2.60% | failed=True | missing_top=['AP European Hist'] | used_backups=[]
+  p=2.02% | failed=False | missing_top=['DE Adv Math PCal'] | used_backups=['DE Intro to Theatre']
+  p=2.02% | failed=False | missing_top=['AP European Hist', 'AP Psychology'] | used_backups=['DE Intro to Theatre', 'Tal Theatre']
+
+
+Student 15
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Calculus AB, AP Calculus AB, AP Physics I Alg, AP Psychology, DE Intro to Engnr, AP Statistics, Dual Enrollment 4, Dual Enrollment 8
+Backups (4): Dual Enrollment 2, Dual Enrollment 3, Dual Enrollment 6, Dual Enrollment 7
+
+P(get ALL top requests): 18.70%
+FAILED % (even backups can't fill a conflict-free 4×4): 40.42%
+
+Distribution: #Top obtained
+  5: 0.66%
+  6: 21.73%
+  7: 58.91%
+  8: 18.70%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=18.70% | failed=False | missing_top=[] | used_backups=[]
+  p=8.54% | failed=True | missing_top=['AP Physics I Alg'] | used_backups=[]
+  p=7.54% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=4.64% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=4.49% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Dual Enrollment 7']
+  p=4.21% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Dual Enrollment 3']
+  p=3.46% | failed=True | missing_top=['AP Statistics'] | used_backups=[]
+  p=3.06% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Dual Enrollment 6']
+  p=2.46% | failed=True | missing_top=['Dual Enrollment 4'] | used_backups=[]
+  p=2.08% | failed=False | missing_top=['AP Physics I Alg'] | used_backups=['Dual Enrollment 6']
+  p=1.99% | failed=False | missing_top=['AP Statistics'] | used_backups=['Dual Enrollment 7']
+  p=1.90% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Dual Enrollment 2']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Calculus AB, AP Calculus AB, AP Physics I Alg, AP Psychology, DE Intro to Engnr, AP Statistics, Dual Enrollment 4, Dual Enrollment 8
+Backups (4): Dual Enrollment 2, Dual Enrollment 3, Dual Enrollment 6, Dual Enrollment 7
+
+P(get ALL top requests): 13.25%
+FAILED % (even backups can't fill a conflict-free 4×4): 47.11%
+
+Distribution: #Top obtained
+  4: 0.01%
+  5: 2.50%
+  6: 27.61%
+  7: 56.65%
+  8: 13.25%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=13.89% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=13.25% | failed=False | missing_top=[] | used_backups=[]
+  p=5.44% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=5.44% | failed=True | missing_top=['AP Physics I Alg'] | used_backups=[]
+  p=3.35% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Dual Enrollment 7']
+  p=2.92% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Dual Enrollment 3']
+  p=2.71% | failed=False | missing_top=['AP Psychology'] | used_backups=['Dual Enrollment 2']
+  p=2.64% | failed=False | missing_top=['AP Psychology'] | used_backups=['Dual Enrollment 3']
+  p=2.34% | failed=True | missing_top=['AP Statistics'] | used_backups=[]
+  p=2.21% | failed=False | missing_top=['AP Psychology'] | used_backups=['Dual Enrollment 6']
+  p=2.08% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Dual Enrollment 6']
+  p=1.93% | failed=False | missing_top=['AP Psychology'] | used_backups=['Dual Enrollment 7']
+
+
+Student 16
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): English IV H, DE Algebra III, Physics H, Amer Hist H, AP Env Sci 1C, Indiv Proj H 1C, World Hist H, Tal Art
+Backups (5): AP Psychology, Afr American H, DE Intro to Engnr, AP US History, AP US History
+
+P(get ALL top requests): 71.56%
+FAILED % (even backups can't fill a conflict-free 4×4): 14.13%
+
+Distribution: #Top obtained
+  6: 2.13%
+  7: 26.31%
+  8: 71.56%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=71.56% | failed=False | missing_top=[] | used_backups=[]
+  p=8.13% | failed=True | missing_top=['World Hist H'] | used_backups=[]
+  p=3.66% | failed=False | missing_top=['Tal Art'] | used_backups=['Afr American H']
+  p=3.45% | failed=True | missing_top=['Tal Art'] | used_backups=[]
+  p=1.74% | failed=False | missing_top=['World Hist H'] | used_backups=['Afr American H']
+  p=1.59% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Afr American H']
+  p=1.30% | failed=False | missing_top=['Tal Art'] | used_backups=['AP Psychology']
+  p=1.10% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=0.92% | failed=False | missing_top=['English IV H'] | used_backups=['Afr American H']
+  p=0.69% | failed=False | missing_top=['Physics H'] | used_backups=['Afr American H']
+  p=0.60% | failed=False | missing_top=['Tal Art'] | used_backups=['DE Intro to Engnr']
+  p=0.47% | failed=True | missing_top=['Amer Hist H'] | used_backups=[]
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): English IV H, DE Algebra III, Physics H, Amer Hist H, AP Env Sci 1C, Indiv Proj H 1C, World Hist H, Tal Art  
+Backups (5): AP Psychology, Afr American H, DE Intro to Engnr, AP US History, AP US History
+
+P(get ALL top requests): 61.80%
+FAILED % (even backups can't fill a conflict-free 4×4): 21.71%
+
+Distribution: #Top obtained
+  6: 2.14%
+  7: 36.07%
+  8: 61.80%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=61.80% | failed=False | missing_top=[] | used_backups=[]
+  p=16.36% | failed=True | missing_top=['World Hist H'] | used_backups=[]
+  p=4.71% | failed=False | missing_top=['World Hist H'] | used_backups=['Afr American H']
+  p=3.11% | failed=False | missing_top=['Tal Art'] | used_backups=['Afr American H']
+  p=2.93% | failed=True | missing_top=['Tal Art'] | used_backups=[]
+  p=1.36% | failed=False | missing_top=['Amer Hist H'] | used_backups=['Afr American H']
+  p=0.93% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=0.93% | failed=False | missing_top=['English IV H'] | used_backups=['Afr American H']
+  p=0.80% | failed=False | missing_top=['Tal Art'] | used_backups=['DE Intro to Engnr']
+  p=0.78% | failed=False | missing_top=['Tal Art'] | used_backups=['AP Psychology']
+  p=0.66% | failed=False | missing_top=['Physics H'] | used_backups=['Afr American H']
+  p=0.52% | failed=False | missing_top=['World Hist H'] | used_backups=['DE Intro to Engnr']
+
+
+Student 17
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Calculus AB, AP Calculus AB, DE Adv Math PCal, AP Psychology, Int Comp Think H, Robotics (LSU), Afr American H, AP English III (11th/12th Grade)
+Backups (4): Physics H, DE Art Hist I, AP Biology (full year), AP Biology (full year)
+
+P(get ALL top requests): 13.54%
+FAILED % (even backups can't fill a conflict-free 4×4): 39.30%
+
+Distribution: #Top obtained
+  4: 0.21%
+  5: 3.82%
+  6: 26.21%
+  7: 56.22%
+  8: 13.54%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=13.54% | failed=False | missing_top=[] | used_backups=[]
+  p=6.71% | failed=True | missing_top=['AP English III (11th/12th Grade)'] | used_backups=[]
+  p=6.11% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=4.63% | failed=False | missing_top=['AP English III (11th/12th Grade)'] | used_backups=['Physics H']
+  p=4.17% | failed=False | missing_top=['AP English III (11th/12th Grade)'] | used_backups=['DE Art Hist I']
+  p=4.11% | failed=False | missing_top=['Robotics (LSU)'] | used_backups=['Physics H']
+  p=4.07% | failed=False | missing_top=['Afr American H'] | used_backups=['DE Art Hist I']
+  p=3.90% | failed=False | missing_top=['Robotics (LSU)'] | used_backups=['DE Art Hist I']
+  p=3.85% | failed=False | missing_top=['Int Comp Think H'] | used_backups=['DE Art Hist I']
+  p=3.63% | failed=True | missing_top=['Int Comp Think H'] | used_backups=[]
+  p=3.07% | failed=True | missing_top=['Afr American H'] | used_backups=[]
+  p=2.76% | failed=False | missing_top=['Int Comp Think H'] | used_backups=['Physics H']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Calculus AB, AP Calculus AB, DE Adv Math PCal, AP Psychology, Int Comp Think H, Robotics (LSU), Afr American H, AP English III (11th/12th Grade)
+Backups (4): Physics H, DE Art Hist I, AP Biology (full year), AP Biology (full year)
+
+P(get ALL top requests): 7.37%
+FAILED % (even backups can't fill a conflict-free 4×4): 52.24%
+
+Distribution: #Top obtained
+  3: 0.03%
+  4: 1.38%
+  5: 12.50%
+  6: 38.27%
+  7: 40.45%
+  8: 7.37%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=7.37% | failed=False | missing_top=[] | used_backups=[]
+  p=4.60% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=4.05% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=3.23% | failed=True | missing_top=['AP English III (11th/12th Grade)'] | used_backups=[]
+  p=2.99% | failed=False | missing_top=['Robotics (LSU)'] | used_backups=['DE Art Hist I']
+  p=2.73% | failed=False | missing_top=['Robotics (LSU)'] | used_backups=['Physics H']
+  p=2.62% | failed=False | missing_top=['AP Psychology'] | used_backups=['DE Art Hist I']
+  p=2.61% | failed=True | missing_top=['AP Psychology', 'Robotics (LSU)'] | used_backups=['DE Art Hist I']
+  p=2.48% | failed=False | missing_top=['Afr American H'] | used_backups=['DE Art Hist I']
+  p=2.35% | failed=False | missing_top=['AP English III (11th/12th Grade)'] | used_backups=['Physics H']
+  p=2.17% | failed=True | missing_top=['Int Comp Think H'] | used_backups=[]
+  p=2.12% | failed=True | missing_top=['Afr American H'] | used_backups=[]
+
+
+Student 18
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Biology (full year), AP Biology (full year), AP Env Sci 1C, AP English III (11th/12th Grade), AP US History, AP US History, English IV H, DE Adv Math PCal
+Backups (4): AP European Hist, DE Art Hist I, Physics H, AP Psychology
+
+P(get ALL top requests): 13.61%
+FAILED % (even backups can't fill a conflict-free 4×4): 44.46%
+
+Distribution: #Top obtained
+  4: 0.10%
+  5: 8.88%
+  6: 35.03%
+  7: 42.37%
+  8: 13.61%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=13.61% | failed=False | missing_top=[] | used_backups=[]
+  p=8.69% | failed=True | missing_top=['AP English III (11th/12th Grade)'] | used_backups=[]
+  p=5.73% | failed=False | missing_top=['AP English III (11th/12th Grade)'] | used_backups=['DE Art Hist I']
+  p=4.33% | failed=True | missing_top=['AP US History'] | used_backups=['DE Art Hist I']
+  p=2.96% | failed=False | missing_top=['English IV H'] | used_backups=['AP European Hist']
+  p=2.91% | failed=False | missing_top=['English IV H'] | used_backups=['DE Art Hist I']
+  p=2.82% | failed=True | missing_top=['AP Env Sci 1C'] | used_backups=[]
+  p=2.75% | failed=False | missing_top=['AP English III (11th/12th Grade)'] | used_backups=['AP European Hist']
+  p=2.64% | failed=True | missing_top=['AP US History'] | used_backups=[]
+  p=2.55% | failed=False | missing_top=['AP Env Sci 1C'] | used_backups=['AP European Hist']
+  p=2.33% | failed=True | missing_top=['AP US History'] | used_backups=['AP European Hist']
+  p=2.21% | failed=False | missing_top=['AP English III (11th/12th Grade)'] | used_backups=['Physics H']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Biology (full year), AP Biology (full year), AP Env Sci 1C, AP English III (11th/12th Grade), AP US History, AP US History, English IV H, DE Adv Math PCal
+Backups (4): AP European Hist, DE Art Hist I, Physics H, AP Psychology
+
+P(get ALL top requests): 13.96%
+FAILED % (even backups can't fill a conflict-free 4×4): 46.56%
+
+Distribution: #Top obtained
+  4: 0.10%
+  5: 8.63%
+  6: 35.85%
+  7: 41.46%
+  8: 13.96%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=13.96% | failed=False | missing_top=[] | used_backups=[]
+  p=8.58% | failed=True | missing_top=['AP English III (11th/12th Grade)'] | used_backups=[]
+  p=6.02% | failed=False | missing_top=['AP English III (11th/12th Grade)'] | used_backups=['DE Art Hist I']
+  p=4.82% | failed=True | missing_top=['AP US History'] | used_backups=['DE Art Hist I']
+  p=3.39% | failed=False | missing_top=['English IV H'] | used_backups=['DE Art Hist I']
+  p=3.23% | failed=True | missing_top=['AP US History'] | used_backups=[]
+  p=3.02% | failed=True | missing_top=['AP Env Sci 1C'] | used_backups=[]
+  p=2.61% | failed=False | missing_top=['AP English III (11th/12th Grade)'] | used_backups=['AP European Hist']
+  p=2.48% | failed=False | missing_top=['English IV H'] | used_backups=['AP European Hist']
+  p=2.19% | failed=False | missing_top=['AP English III (11th/12th Grade)'] | used_backups=['Physics H']
+  p=2.07% | failed=True | missing_top=['AP US History'] | used_backups=['Physics H']
+  p=2.05% | failed=True | missing_top=['DE Adv Math PCal'] | used_backups=[]
+
+
+Student 19
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): Int Comp Think H, Physics H, AP Calculus AB, AP Calculus AB, DE Intro to Engnr, Robotics (LSU), Enginr Dev+ LSU, AP Psychology
+Backups (5): AP Calculus AB, AP Calculus AB, DE Intro to Engnr, Int Comp Think H, Robotics (LSU)
+
+P(get ALL top requests): 32.57%
+FAILED % (even backups can't fill a conflict-free 4×4): 67.42%
+
+Distribution: #Top obtained
+  6: 8.43%
+  7: 58.99%
+  8: 32.57%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=32.57% | failed=False | missing_top=[] | used_backups=[]
+  p=19.20% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=13.57% | failed=True | missing_top=['Enginr Dev+ LSU'] | used_backups=[]
+  p=12.77% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=8.24% | failed=True | missing_top=['Int Comp Think H'] | used_backups=[]
+  p=4.76% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=1.74% | failed=True | missing_top=['Int Comp Think H', 'Physics H'] | used_backups=[]
+  p=1.70% | failed=True | missing_top=['DE Intro to Engnr', 'Physics H'] | used_backups=[]
+  p=1.63% | failed=True | missing_top=['Enginr Dev+ LSU', 'Physics H'] | used_backups=[]
+  p=0.83% | failed=True | missing_top=['Physics H', 'Robotics (LSU)'] | used_backups=[]
+  p=0.60% | failed=True | missing_top=['Enginr Dev+ LSU', 'Robotics (LSU)'] | used_backups=[]
+  p=0.49% | failed=True | missing_top=['DE Intro to Engnr', 'Enginr Dev+ LSU'] | used_backups=[]
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): Int Comp Think H, Physics H, AP Calculus AB, AP Calculus AB, DE Intro to Engnr, Robotics (LSU), Enginr Dev+ LSU, AP Psychology
+Backups (5): AP Calculus AB, AP Calculus AB, DE Intro to Engnr, Int Comp Think H, Robotics (LSU)
+
+P(get ALL top requests): 18.94%
+FAILED % (even backups can't fill a conflict-free 4×4): 81.06%
+
+Distribution: #Top obtained
+  5: 1.06%
+  6: 23.45%
+  7: 56.55%
+  8: 18.94%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=18.94% | failed=False | missing_top=[] | used_backups=[]
+  p=15.55% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=15.21% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=10.85% | failed=True | missing_top=['Physics H'] | used_backups=[]
+  p=8.25% | failed=True | missing_top=['AP Psychology', 'Robotics (LSU)'] | used_backups=[]
+  p=7.32% | failed=True | missing_top=['Enginr Dev+ LSU'] | used_backups=[]
+  p=4.98% | failed=True | missing_top=['Int Comp Think H'] | used_backups=[]
+  p=3.63% | failed=True | missing_top=['AP Psychology', 'Physics H'] | used_backups=[]
+  p=2.64% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=1.97% | failed=True | missing_top=['AP Psychology', 'Int Comp Think H'] | used_backups=[]
+  p=1.82% | failed=True | missing_top=['Physics H', 'Robotics (LSU)'] | used_backups=[]
+  p=1.21% | failed=True | missing_top=['Int Comp Think H', 'Physics H'] | used_backups=[]
+
+
+Student 20
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Psychology, AP Calculus AB, AP Calculus AB, AP Statistics, DE Intro to Engnr, Robotics (LSU), Int Comp Think H, AP Env Sci 1C
+Backups (4): DE Art Hist I, AP English III (11th/12th Grade), AP Comp Sci Prin, DE Intro to Theatre
+
+P(get ALL top requests): 25.66%
+FAILED % (even backups can't fill a conflict-free 4×4): 21.05%
+
+Distribution: #Top obtained
+  6: 14.57%
+  7: 59.77%
+  8: 25.66%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=25.66% | failed=False | missing_top=[] | used_backups=[]
+  p=9.83% | failed=False | missing_top=['AP Env Sci 1C'] | used_backups=['DE Art Hist I']
+  p=6.75% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['DE Art Hist I']
+  p=6.33% | failed=False | missing_top=['Robotics (LSU)'] | used_backups=['DE Art Hist I']
+  p=5.13% | failed=False | missing_top=['Int Comp Think H'] | used_backups=['DE Art Hist I']
+  p=4.05% | failed=True | missing_top=['AP Env Sci 1C'] | used_backups=[]
+  p=3.52% | failed=False | missing_top=['AP Env Sci 1C'] | used_backups=['DE Intro to Theatre']
+  p=3.28% | failed=True | missing_top=['Int Comp Think H'] | used_backups=[]
+  p=3.21% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=2.63% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['AP Comp Sci Prin']
+  p=2.63% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['DE Intro to Theatre']
+  p=2.09% | failed=False | missing_top=['Int Comp Think H'] | used_backups=['DE Intro to Theatre']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Psychology, AP Calculus AB, AP Calculus AB, AP Statistics, DE Intro to Engnr, Robotics (LSU), Int Comp Think H, AP Env Sci 1C
+Backups (4): DE Art Hist I, AP English III (11th/12th Grade), AP Comp Sci Prin, DE Intro to Theatre
+
+P(get ALL top requests): 14.97%
+FAILED % (even backups can't fill a conflict-free 4×4): 31.74%
+
+Distribution: #Top obtained
+  4: 0.03%
+  5: 2.03%
+  6: 28.17%
+  7: 54.79%
+  8: 14.97%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=14.97% | failed=False | missing_top=[] | used_backups=[]
+  p=6.91% | failed=False | missing_top=['Robotics (LSU)'] | used_backups=['DE Art Hist I']
+  p=6.84% | failed=False | missing_top=['AP Psychology'] | used_backups=['DE Art Hist I']
+  p=5.27% | failed=False | missing_top=['AP Env Sci 1C'] | used_backups=['DE Art Hist I']
+  p=4.25% | failed=True | missing_top=['AP Psychology', 'Robotics (LSU)'] | used_backups=['DE Art Hist I']
+  p=3.69% | failed=True | missing_top=['Robotics (LSU)'] | used_backups=[]
+  p=3.42% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=3.41% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['DE Art Hist I']
+  p=3.13% | failed=False | missing_top=['Int Comp Think H'] | used_backups=['DE Art Hist I']
+  p=2.24% | failed=True | missing_top=['AP Env Sci 1C'] | used_backups=[]
+  p=2.17% | failed=True | missing_top=['Int Comp Think H'] | used_backups=[]
+  p=2.15% | failed=False | missing_top=['AP Env Sci 1C'] | used_backups=['DE Intro to Theatre']
+
+
+Student 21
+=== MONTE CARLO ONLY MODE: loading schedule bank ===
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: none
+Top requests (8): AP Psychology, AP European Hist, AP English III (11th/12th Grade), AP Statistics, DE Intro to Engnr, AP Biology (full year), AP Biology (full year), AP Env Sci 1C
+Backups (5): Robotics (LSU), Int Comp Think H, Afr American H, AP Calculus AB, AP Calculus AB
+
+P(get ALL top requests): 15.66%
+FAILED % (even backups can't fill a conflict-free 4×4): 33.85%
+
+Distribution: #Top obtained
+  4: 0.50%
+  5: 2.96%
+  6: 26.80%
+  7: 54.09%
+  8: 15.66%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=15.66% | failed=False | missing_top=[] | used_backups=[]
+  p=6.02% | failed=True | missing_top=['AP English III (11th/12th Grade)'] | used_backups=[]
+  p=3.79% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Robotics (LSU)']
+  p=3.71% | failed=True | missing_top=['AP Statistics'] | used_backups=[]
+  p=3.54% | failed=False | missing_top=['AP English III (11th/12th Grade)'] | used_backups=['Robotics (LSU)']
+  p=2.90% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=2.74% | failed=False | missing_top=['AP Env Sci 1C'] | used_backups=['Robotics (LSU)']
+  p=2.61% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Int Comp Think H']
+  p=2.22% | failed=True | missing_top=['AP European Hist'] | used_backups=[]
+  p=2.21% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Afr American H']
+  p=2.20% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
+  p=2.12% | failed=False | missing_top=['AP European Hist'] | used_backups=['Robotics (LSU)']
+
+=== STUDENT OUTCOME MONTE CARLO ===
+Iterations: 20000
+Seat model: course_lottery
+Top requests (8): AP Psychology, AP European Hist, AP English III (11th/12th Grade), AP Statistics, DE Intro to Engnr, AP Biology (full year), AP Biology (full year), AP Env Sci 1C
+Backups (5): Robotics (LSU), Int Comp Think H, Afr American H, AP Calculus AB, AP Calculus AB
+
+P(get ALL top requests): 9.26%
+FAILED % (even backups can't fill a conflict-free 4×4): 46.84%
+
+Distribution: #Top obtained
+  3: 0.02%
+  4: 0.77%
+  5: 8.57%
+  6: 36.90%
+  7: 44.48%
+  8: 9.26%
+
+Top fallback scenarios (includes multi-backup combos):
+  p=9.26% | failed=False | missing_top=[] | used_backups=[]
+  p=6.34% | failed=True | missing_top=['AP Psychology'] | used_backups=[]
+  p=3.79% | failed=True | missing_top=['AP English III (11th/12th Grade)'] | used_backups=[]
+  p=3.19% | failed=False | missing_top=['AP Psychology'] | used_backups=['Afr American H']
+  p=3.14% | failed=True | missing_top=['AP European Hist'] | used_backups=[]
+  p=2.50% | failed=True | missing_top=['AP Statistics'] | used_backups=[]
+  p=2.40% | failed=False | missing_top=['AP Psychology'] | used_backups=['Int Comp Think H']
+  p=2.32% | failed=False | missing_top=['AP European Hist'] | used_backups=['Afr American H']
+  p=2.15% | failed=True | missing_top=['AP European Hist', 'AP Psychology'] | used_backups=['Afr American H']
+  p=2.06% | failed=False | missing_top=['DE Intro to Engnr'] | used_backups=['Robotics (LSU)']
+  p=1.80% | failed=False | missing_top=['AP Psychology'] | used_backups=['Robotics (LSU)']
+  p=1.70% | failed=True | missing_top=['DE Intro to Engnr'] | used_backups=[]
