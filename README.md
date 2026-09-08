@@ -51,7 +51,9 @@ I used **MCMC simulated annealing** to search through possible period assignment
 * Teacher scheduling constraints
 * Seat shortages
 
-A simplified version of the objective function is: **Energy** = **Conflict Energy** + *w*<sub>seat</sub> · **Seat Shortage**
+A simplified version of the objective function is:
+
+$$\textbf{Energy} = \textbf{Conflict Energy} + w_{\text{seat}} \cdot \textbf{Seat Shortage}$$
 
 The simulated annealing process then tries to find schedules with lower energy.
 
