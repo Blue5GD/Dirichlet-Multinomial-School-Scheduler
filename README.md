@@ -59,7 +59,7 @@ The simulated annealing process then tries to find schedules with lower energy.
 
 The final part of the project is the Monte Carlo simulation.
 
-Instead of testing one student on one schedule, I generated a bank of approximately **1,000 valid master schedules** and used that same bank for the simulations.
+Instead of testing one student on one schedule, I generated a bank of **1,000 valid master schedules** and used that same bank for the simulations.
 
 For each student, the program takes:
 
