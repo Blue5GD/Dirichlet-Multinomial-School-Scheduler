@@ -56,15 +56,7 @@ I used **MCMC simulated annealing** to search through possible period assignment
 * Teacher scheduling constraints
 * Seat shortages
 
-A simplified version of the objective function is:
-
-$$
-\text{Energy}
-=
-\text{Conflict Energy}
-+
-w_{\text{seat}}\cdot\text{Seat Shortage}
-$$
+A simplified version of the objective function is: **Energy** = **Conflict Energy** + *w*<sub>seat</sub> · **Seat Shortage**
 
 The simulated annealing process then tries to find schedules with lower energy.
 
@@ -239,7 +231,7 @@ secondary_programs/
 
 * `main.py`: Main program containing the schedule generation, optimization, and Monte Carlo simulation code.
 * `data/`: Anonymized input data and generated schedule information.
-* `secondary_programs/`: Smaller programs used for preprocessing, data collection, and other parts of the project.
+* `secondary_programs/`: Smaller programs for data inspection and other parts of the project.
 
 Some generated schedule data is stored using Python pickle files (`.pkl`).
 
@@ -278,7 +270,7 @@ It would also be useful to generate much larger schedule banks with HPCs and tes
 
 Finally, the system could be adapted to other scheduling structures, such as traditional 7-period schedules instead of the 4x4 block schedule used by my high school.
 
-## References
+## Select References
 
 1. Abramson, D. "Constructing School Timetables Using Simulated Annealing: Sequential and Parallel Algorithms." *Management Science*, vol. 37, no. 1, 1991, pp. 98–113.
 2. Blei, D. M., Ng, A. Y., & Jordan, M. I. "Latent Dirichlet Allocation." *Journal of Machine Learning Research*, vol. 3, 2003, pp. 993–1022.
