@@ -43,7 +43,7 @@ The goal is to make sure that every schedule generated later is actually feasibl
 
 Once the number of sections has been determined, the program needs to decide when those sections should occur.
 
-My high school uses an 8-block schedule: Fall 1st Period to Fall 4th Period and Spring 1st Period to Spring 4th Period
+My high school uses an 8-block schedule: Fall 1st-4th Period and Spring 1st-4th Period
 
 I used **MCMC simulated annealing** to search through possible period assignments. The program gives each schedule an objective score based on:
 
